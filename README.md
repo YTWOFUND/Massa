@@ -94,4 +94,4 @@ node_testnet_rewards_program_ownership_proof <wallet address> <id from Discord>
 ```
 18. We send the result of the received command to Massa Bot in Discord.
 
-19. We track the accrual of points from Massa Bot with the info command.
+19. We track the accrual of points from Massa Bot with the "info" command.
