@@ -9,7 +9,7 @@ RAM: 8 Gb</br>
 SSD: 100 Gb</br>
 OS: Ubuntu 20.04 LTS</br>
 
-### Installing the Massa Node
+### Installing the Massa Node   |   [Update](https://github.com/YTWOFUND/Massa/blob/main/README.md#update)
 
 1. Preparing the server.
 ```
