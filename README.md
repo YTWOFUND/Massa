@@ -95,3 +95,34 @@ node_testnet_rewards_program_ownership_proof <wallet address> <id from Discord>
 18. We send the result of the received command to Massa Bot in Discord.
 
 19. We track the accrual of points from Massa Bot with the "info" command.
+
+# Update
+1. Download binary files, start the service.
+```
+cd $HOME && wget https://github.com/massalabs/massa/releases/download/TEST.20.1/massa_TEST.20.1_release_linux.tar.gz && tar zxvf massa_TEST.20.1_release_linux.tar.gz && sudo systemctl restart massad && sudo journalctl -f -n 100 -u massad 
+```
+2. Launching the client.
+```
+cd $HOME/massa/massa-client/ && ./massa-client -p <YOU_PASSWORD>
+```
+3. See address.
+```
+wallet_info
+```
+4. Request test tokens in [project discord](https://discord.com/channels/828270821042159636/866190913030193172).
+5. Buying a roll.
+```
+buy_rolls <wallet address> 1 0
+```
+6. Checking the purchase of a roll.
+```
+wallet_info
+```
+7. We send our IP to Discord Massa Bot, in the terminal we enter the following command.
+```
+node_testnet_rewards_program_ownership_proof <wallet address> <id from Discord>
+```
+8. We send the result of the received command to Massa Bot in Discord.
+
+9. We track the accrual of points from Massa Bot with the "info" command.
+
