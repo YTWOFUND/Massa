@@ -17,11 +17,11 @@ sudo apt update && sudo apt-get install libclang-dev
 ```
 2. Downloading binary files.
 ```
-wget https://github.com/massalabs/massa/releases/download/TEST.20.0/massa_TEST.20.0_release_linux.tar.gz
+wget https://github.com/massalabs/massa/releases/download/TEST.20.2/massa_TEST.20.2_release_linux.tar.gz
 ```
 3. Unpack the downloaded archive
 ```
-tar zxvf massa_TEST.20.0_release_linux.tar.gz
+tar zxvf massa_TEST.20.2_release_linux.tar.gz
 ```
 4. Before starting the node, we will write the server ip-address in the config.
 ```
