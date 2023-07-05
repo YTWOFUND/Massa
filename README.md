@@ -99,7 +99,7 @@ node_testnet_rewards_program_ownership_proof <wallet address> <id from Discord>
 # Update
 1. Download binary files, start the service.
 ```
-cd $HOME && wget https://github.com/massalabs/massa/releases/download/TEST.24.0/massa_TEST.24.0_release_linux.tar.gz && tar zxvf massa_TEST.22.1_release_linux.tar.gz && sudo systemctl restart massad && sudo journalctl -f -n 100 -u massad 
+cd $HOME && wget https://github.com/massalabs/massa/releases/download/TEST.24.0/massa_TEST.24.0_release_linux.tar.gz && tar zxvf massa_TEST.24.0_release_linux.tar.gz && sudo systemctl restart massad && sudo journalctl -f -n 100 -u massad 
 ```
 2. Launching the client.
 ```
