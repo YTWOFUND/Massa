@@ -17,11 +17,11 @@ sudo apt update && sudo apt-get install libclang-dev
 ```
 2. Downloading binary files.
 ```
-wget https://github.com/massalabs/massa/releases/download/TEST.24.0/massa_TEST.24.0_release_linux.tar.gz
+wget https://github.com/massalabs/massa/releases/download/TEST.24.1/massa_TEST.24.1_release_linux.tar.gz
 ```
 3. Unpack the downloaded archive
 ```
-tar zxvf massa_TEST.24.0_release_linux.tar.gz
+tar zxvf massa_TEST.24.1_release_linux.tar.gz
 ```
 4. Before starting the node, we will write the server ip-address in the config.
 ```
@@ -99,7 +99,7 @@ node_testnet_rewards_program_ownership_proof <wallet address> <id from Discord>
 # Update
 1. Download binary files, start the service.
 ```
-cd $HOME && wget https://github.com/massalabs/massa/releases/download/TEST.24.0/massa_TEST.24.0_release_linux.tar.gz && tar zxvf massa_TEST.24.0_release_linux.tar.gz && sudo systemctl restart massad && sudo journalctl -f -n 100 -u massad 
+cd $HOME && wget https://github.com/massalabs/massa/releases/download/TEST.24.1/massa_TEST.24.1_release_linux.tar.gz && tar zxvf massa_TEST.24.1_release_linux.tar.gz && sudo systemctl restart massad && sudo journalctl -f -n 100 -u massad 
 ```
 2. Launching the client.
 ```
